@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S",
+        "S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "S": {
+            "item": "bloodfruit:tendril"
+        }
+    },
+    "result": {
+        "item": "bloodfruit:tendrilstone",
+        "count": 4
+    }
+}

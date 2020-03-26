@@ -1,0 +1,12 @@
+{
+  "meat_chomp": {
+    "category": "block",
+    "subtitle": "Meat Flower Chomps",
+    "sounds": [ "bloodfruit:meat_chomp" ]
+  },
+  "meat_scream": {
+    "category": "block",
+    "subtitle": "Meat Flower Screams",
+    "sounds": [ "bloodfruit:meat_scream" ]
+  }
+}

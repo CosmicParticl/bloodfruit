@@ -1,0 +1,10 @@
+{
+  "replace": "true",
+  "values": [
+    "minecraft:netherrack",
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:soul_sand",
+    "bloodfruit:tendrilstone"
+  ]
+}

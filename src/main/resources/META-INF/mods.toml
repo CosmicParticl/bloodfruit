@@ -1,0 +1,38 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory
+[[mods]] #mandatory
+
+modId="bloodfruit" #mandatory
+
+version=".1" #mandatory
+ # A display name for the mod
+displayName="Blood Fruit" #mandatory
+
+credits="Thanks to Coda!" #optional
+
+authors="Cosmicparticl" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Made for the Randomized Mod Jam
+Feed strange, organlike plants. What could go wrong?
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.bloodfruit]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[31,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+# Here's another dependency
+[[dependencies.delicateanddainty]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
