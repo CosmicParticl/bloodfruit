@@ -28,8 +28,8 @@ public class LootHandler {
         switch (file) {
 
 
-            case "simple_dungeon":
-            case "stronghold_crossing":
+
+
             case "nether_bridge":
              evt.getTable().addPool(getInjectPool(file));
              break;

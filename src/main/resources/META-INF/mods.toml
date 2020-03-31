@@ -30,7 +30,7 @@ Feed strange, organlike plants. What could go wrong?
 
     side="BOTH"
 # Here's another dependency
-[[dependencies.delicateanddainty]]
+[[dependencies.bloodfruit]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"
