@@ -105,6 +105,39 @@ public class meatflower extends BushBlock {
 
 
         }
+
+        else if (itemstack.getItem() == ItemHolder.blood_fruit) {
+            worldIn.playSound(entity,
+                    entity.getPosX(),
+                    entity.getPosY(),
+                    entity.getPosZ(),
+                    bloodfruitsounds.meat_scream,
+                    SoundCategory.NEUTRAL,
+                    1.0F,
+                    1.0F);
+
+            spawnAsEntity(worldIn, pos, new ItemStack(BlockHolder.meatflower,1));
+            itemstack.shrink(1);
+            return ActionResultType.SUCCESS;
+
+
+        }
+        else if (itemstack.getItem() == Items.ZOMBIE_HEAD) {
+            worldIn.playSound(entity,
+                    entity.getPosX(),
+                    entity.getPosY(),
+                    entity.getPosZ(),
+                    bloodfruitsounds.meat_chomp,
+                    SoundCategory.NEUTRAL,
+                    1.0F,
+                    1.0F);
+
+            spawnAsEntity(worldIn, pos, new ItemStack(Items.SKELETON_SKULL,1));
+            itemstack.shrink(1);
+            return ActionResultType.SUCCESS;
+
+
+        }
         else if (bloodfruittags.meatflower_eat.contains(itemstack.getItem())) {
             worldIn.playSound(entity,
                     entity.getPosX(),

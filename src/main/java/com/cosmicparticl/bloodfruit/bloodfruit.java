@@ -34,7 +34,7 @@ import java.util.Optional;
 @Mod(bloodfruit.MODID)
 public class bloodfruit {
     public static final String MODID = "bloodfruit";
-    public static final String VERSION = "1.2";
+    public static final String VERSION = "1.3";
 
     public static IProxy PROXY = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
 

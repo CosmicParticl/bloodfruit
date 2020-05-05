@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "#S#",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather"
+        },
+        "C": {
+            "item": "bloodfruit:tendril"
+        },
+        "S": {
+            "item": "bloodfruit:blood_fruit"
+        }
+    },
+    "result": {
+        "item": "bloodfruit:parasitemark",
+        "nbt": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:.8,Operation:1,UUIDLeast:82624,UUIDMost:885345,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUIDLeast:150935,UUIDMost:292146,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDLeast:925818,UUIDMost:567711,Slot:\"chest\"}]}",
+        "count": 1
+    }
+}
